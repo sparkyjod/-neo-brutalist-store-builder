@@ -34,3 +34,6 @@ The live, usable app is the Muse fullstack artifact **"Neo-Brutalist Store Build
 - Bootstrap loads draft + published configs (8 sections), 3 presets, 12 products, 3 orders, 3 customers; store is Published.
 - Product create/delete, order placement (stock decrements + sales counters), and publish round-trip were tested through the app actions and read back.
 - Known quirk: two orders placed in the same parallel batch shared code RF-1050 (distinct order ids). Sequential checkout from the UI generates codes normally.
+
+## Generated editor prompt
+- `docs/SHOPIFY_EDITOR_PROMPT.md` — the self-generated prompt used to upgrade the editor to a Shopify-style customizer (templates, blocks, inline editing) and add the in-app Core page explaining Frontend vs Backend with live store data.
