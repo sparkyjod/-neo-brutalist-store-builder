@@ -1,0 +1,9 @@
+{
+  "name": "neo-brutalist-store-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fully editable Neo-Brutalist e-commerce store builder with Shopify-style visual editor",
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": { "next": "^14.0.0", "react": "^18.0.0", "react-dom": "^18.0.0" },
+  "devDependencies": { "typescript": "^5.0.0", "tailwindcss": "^3.4.0" }
+}
