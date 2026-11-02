@@ -29,3 +29,8 @@ React + TypeScript + Tailwind-style utility styling, JSON schema for theme / pag
 
 ## Local project in this workspace
 The live, usable app is the Muse fullstack artifact **"Neo-Brutalist Store Builder"** (slug: `neo-brutalist-store-builder`). This repository mirrors its architecture, schema, and documentation for version control / handoff to a Next.js codebase.
+
+## Verified live (2026-11-03)
+- Bootstrap loads draft + published configs (8 sections), 3 presets, 12 products, 3 orders, 3 customers; store is Published.
+- Product create/delete, order placement (stock decrements + sales counters), and publish round-trip were tested through the app actions and read back.
+- Known quirk: two orders placed in the same parallel batch shared code RF-1050 (distinct order ids). Sequential checkout from the UI generates codes normally.
